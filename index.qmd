@@ -1,0 +1,37 @@
+---
+title: "Quantitative Development"
+subtitle: "Research systems, econometrics, financial analytics, and reproducible implementation"
+---
+
+## Focus
+
+This site documents a quantitative development agenda at the intersection of:
+
+- macroeconometrics;
+- quantitative finance;
+- financial stability;
+- banking analytics;
+- reproducible research systems;
+- R, Python, SQL, C++, and Quarto workflows.
+
+## Core implementation areas
+
+::: {.callout-note}
+The objective is not only to publish analysis, but to show how analytical products are engineered: data structure, code quality, reproducibility, model diagnostics, documentation, and deployment.
+:::
+
+### 1. Econometric systems
+
+Time series, structural breaks, local projections, VAR/VECM, GARCH-X, DCC-GARCH, Bayesian VAR, and regime-switching models.
+
+### 2. Quantitative finance
+
+Monte Carlo simulation, exotic options, risk measures, portfolio analytics, backtesting, and C++ acceleration.
+
+### 3. Research infrastructure
+
+Versioned data pipelines, automated reporting, reusable R/Python functions, Quarto publishing, and Git-based workflows.
+
+### 4. Public technical writing
+
+Short, rigorous, implementation-oriented posts for quantitative development and applied research.

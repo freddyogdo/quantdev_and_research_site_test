@@ -1,0 +1,23 @@
+---
+title: "Research Systems"
+---
+
+## Standard architecture
+
+A research system should separate:
+
+1. **Data ingestion**: source connection, validation, and point-in-time storage.
+2. **Transformation**: cleaning, feature engineering, aggregation, and metadata.
+3. **Modeling**: estimation, diagnostics, simulation, and robustness.
+4. **Publication**: Quarto reports, dashboards, documentation, and APIs.
+5. **Governance**: version control, reproducibility, tests, and access controls.
+
+## Implementation principles
+
+- Use Git from the first day.
+- Keep raw data immutable.
+- Document every derived variable.
+- Separate confidential data from public examples.
+- Use synthetic data for public demonstrations.
+- Automate rendering and deployment.
+- Make the analysis reproducible on a clean machine.

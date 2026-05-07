@@ -1,0 +1,57 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+    - "projects/**/*.qmd"
+
+website:
+  title: "Your Name | Quantitative Development"
+  site-url: "https://<username>.github.io/<repository>/"
+  description: "Quantitative development, econometrics, financial systems, and reproducible research."
+  search: true
+  navbar:
+    pinned: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Systems"
+        href: systems.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: github
+        href: "https://github.com/<username>"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/<profile>/"
+  page-footer:
+    left: "© Your Name"
+    right: "Built with Quarto and deployed with GitHub Pages."
+
+bibliography: references.bib
+
+execute:
+  freeze: auto
+  warning: false
+  message: false
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true

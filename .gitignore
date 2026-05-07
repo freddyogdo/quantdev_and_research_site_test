@@ -1,0 +1,29 @@
+# Quarto output
+_site/
+.quarto/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and confidential data
+.env
+*.key
+*.pem
+secrets/
+data/raw/
+data/confidential/

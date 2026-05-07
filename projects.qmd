@@ -1,0 +1,12 @@
+---
+title: "Projects"
+listing:
+  contents: projects
+  type: default
+  sort: "title"
+  categories: true
+---
+
+## Project portfolio
+
+Projects should be treated as technical artifacts, not only as descriptions. Each project should include code links, reproducibility instructions, model assumptions, and diagnostic outputs.

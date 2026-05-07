@@ -1,0 +1,41 @@
+/* Quantitative Development GitHub Page Standard */
+
+:root {
+  --quant-navy: #0b1020;
+  --quant-muted: #5f6b7a;
+  --quant-border: #d8dee9;
+}
+
+.navbar-title {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+.quarto-title-banner {
+  border-bottom: 1px solid var(--quant-border);
+}
+
+.callout {
+  border-radius: 12px;
+}
+
+code {
+  font-size: 0.92em;
+}
+
+pre {
+  border-radius: 12px;
+}
+
+.card, .listing {
+  border-radius: 14px;
+}
+
+.project-meta {
+  color: var(--quant-muted);
+  font-size: 0.95rem;
+}

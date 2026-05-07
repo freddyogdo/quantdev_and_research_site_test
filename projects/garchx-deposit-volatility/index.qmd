@@ -1,0 +1,48 @@
+---
+title: "GARCH-X Deposit Volatility by Economic Agent"
+categories: [econometrics, financial-stability, garch, deposits]
+---
+
+## Problem
+
+Deposit behavior is heterogeneous across economic agents and currency denomination. A single aggregate deposit series can hide important differences in volatility, persistence, and shock transmission.
+
+## Method
+
+A GARCH-X specification can be used to evaluate whether macro-financial variables help explain conditional volatility in deposit changes.
+
+## Implementation sketch
+
+```{r}
+library(ggplot2)
+library(dplyr)
+
+set.seed(123)
+
+df <- tibble::tibble(
+  date = seq.Date(as.Date("2025-01-01"), by = "day", length.out = 250),
+  agent = rep(c("Households", "Private firms"), each = 125),
+  dlog_deposits = c(rnorm(125, 0, 0.004), rnorm(125, 0, 0.010))
+)
+
+ggplot(df, aes(date, dlog_deposits, color = agent)) +
+  geom_line() +
+  facet_wrap(~ agent, scales = "free_y") +
+  labs(
+    title = "Synthetic deposit changes by economic agent",
+    x = NULL,
+    y = "Δ log deposits"
+  ) +
+  theme_minimal()
+```
+
+## Reproducibility
+
+This public page should use synthetic or anonymized data only. Confidential supervisory data must never be committed to the repository.
+
+## Next steps
+
+- Add model specification.
+- Add diagnostics.
+- Add robustness checks.
+- Add replication instructions.

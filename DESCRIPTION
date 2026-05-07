@@ -1,0 +1,16 @@
+Package: quantdevpage
+Type: Website
+Title: Quantitative Development GitHub Pages Website
+Version: 0.0.1
+Description: Dependency metadata for rendering a Quarto website with R examples.
+License: MIT
+Encoding: UTF-8
+Imports:
+    knitr,
+    rmarkdown,
+    ggplot2,
+    dplyr,
+    readr,
+    tibble,
+    tidyr,
+    broom

@@ -1,0 +1,32 @@
+---
+title: "Research Agenda"
+---
+
+## Main lines
+
+### Deposit funding heterogeneity
+
+High-frequency empirical analysis of deposit behavior by economic agent and currency denomination.
+
+**Core question:** how do macro-financial shocks affect deposit stability across heterogeneous funding sources?
+
+### Quantitative finance implementation
+
+Monte Carlo methods, exotic option pricing, error estimation, backtesting, and computational efficiency.
+
+### Macro-financial risk systems
+
+Research-grade tools for financial stability analysis, stress propagation, and network econometrics.
+
+## Research-page standard
+
+Each research page should state:
+
+1. research question;
+2. contribution;
+3. data structure;
+4. identification or empirical strategy;
+5. model specification;
+6. diagnostics;
+7. reproducibility details;
+8. limitations.

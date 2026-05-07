@@ -1,0 +1,12 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: true
+---
+
+## Technical notes
+
+Short practical notes on quantitative development, econometrics, research engineering, and reproducible implementation.

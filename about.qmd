@@ -1,0 +1,21 @@
+---
+title: "About"
+---
+
+## Profile
+
+I work at the intersection of quantitative finance, macroeconometrics, banking analytics, data science, and research software engineering.
+
+My professional focus is to transform analytical work into reproducible, documented, and maintainable systems.
+
+## Technical stack
+
+- **R**: econometrics, reporting, visualization, packages, Quarto.
+- **Python**: automation, machine learning, pipelines, APIs.
+- **SQL**: structured data extraction and database integration.
+- **C++ / Rcpp**: computational finance, simulation, acceleration.
+- **Git/GitHub**: version control, collaboration, CI/CD, public technical portfolio.
+
+## Research orientation
+
+I prioritize data-driven decision-making, rigorous empirical design, and technical implementation that can be audited, reproduced, and extended.
