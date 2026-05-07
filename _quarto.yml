@@ -7,9 +7,9 @@ project:
     - "projects/**/*.qmd"
 
 website:
-  title: "Your Name | Quantitative Development"
-  site-url: "https://<username>.github.io/<repository>/"
-  description: "Quantitative development, econometrics, financial systems, and reproducible research."
+  title: "Freddy Ogando | Quantitative Development"
+  site-url: "https://freddyogdo.github.io/<repository>/"
+  description: "Quantitative development and research implementations, work in progress and ideas."
   search: true
   navbar:
     pinned: true
@@ -28,14 +28,14 @@ website:
         href: about.qmd
     right:
       - icon: github
-        href: "https://github.com/<username>"
+        href: "https://github.com/freddyogdo"
       - icon: linkedin
-        href: "https://www.linkedin.com/in/<profile>/"
+        href: "https://www.linkedin.com/in/freddy-manuel-ogando-86105799/"
   page-footer:
-    left: "© Your Name"
-    right: "Built with Quarto and deployed with GitHub Pages."
+    left: "Freddy Ogando"
 
 bibliography: references.bib
+#csl: apa.csl
 
 execute:
   freeze: auto
@@ -45,8 +45,8 @@ execute:
 format:
   html:
     theme:
-      light: cosmo
       dark: darkly
+      light: cosmo
     css: styles.css
     toc: true
     toc-depth: 3

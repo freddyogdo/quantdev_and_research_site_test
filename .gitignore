@@ -27,3 +27,5 @@ Thumbs.db
 secrets/
 data/raw/
 data/confidential/
+
+/.quarto/

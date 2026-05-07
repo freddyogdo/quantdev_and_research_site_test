@@ -31,7 +31,7 @@ Why:
 
 Recommended options:
 
-- Personal site: `<username>.github.io`
+- Personal site: `freddyogdo.github.io`
 - Project site: `quantdev-page`, `quant-research-lab`, or `freddy-ogando.github.io`
 
 ### 2. Enable GitHub Pages
@@ -47,7 +47,7 @@ Edit `_quarto.yml`:
 ```yaml
 website:
   title: "Your Name | Quantitative Development"
-  site-url: "https://<username>.github.io/<repository>/"
+  site-url: "https://freddyogdo.github.io/<repository>/"
 ```
 
 ### 4. Local preview

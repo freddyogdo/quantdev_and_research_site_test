@@ -1,5 +1,5 @@
 ---
-title: "A GitHub Pages Standard for Quantitative Development"
+title: "Quantitative Development"
 date: "2026-05-07"
 categories: [github, quarto, reproducibility, quantitative-development]
 ---
